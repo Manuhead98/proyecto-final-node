@@ -24,6 +24,12 @@ app.use(bodyParser.json());    // Permito leer datos JSON en el cuerpo de las pe
 app.use('/api/products', productRoutes);  // Rutas para productos bajo el path /api/products
 app.use('/auth', authRoutes);             // Rutas para autenticación bajo el path /auth
 
+
+// Ruta por defecto
+app.get('/', (req, res) => {
+  res.send('Bienvenido a la API REST de productos. Visitá /api/products o /auth para comenzar.');
+});
+
 // Middleware para manejar peticiones a rutas no definidas
 app.use(notFoundHandler);
 
