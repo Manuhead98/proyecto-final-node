@@ -80,8 +80,6 @@ Podés desplegar este proyecto en servicios como **Vercel**, **Render** o **Rail
 
 ## Contribuciones
 
-Este proyecto forma parte de una práctica personal de backend con Node.js. Se aceptan mejoras y sugerencias.
+Este proyecto forma parte del proyecto final del curso de backend con Node.js de Talento Tech. Se aceptan mejoras y sugerencias.
 
-## Licencia
 
-MIT
